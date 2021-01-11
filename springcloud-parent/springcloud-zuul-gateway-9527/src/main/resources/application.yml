@@ -1,0 +1,27 @@
+server: 
+  port: 9527
+ 
+spring: 
+  application:
+    name: microservicecloud-zuul-gateway
+ 
+eureka: 
+  client: 
+    service-url: 
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka  
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true 
+
+zuul:
+  # ignored-services: springcloud-dept 禁用这个实例名称
+  ignored-services: "*"
+  prefix: /abc
+  routes: 
+    mydept.serviceId: springcloud-dept
+    mydept.path: /mydept/**
+info:
+  app.name: zuul-springcloud
+  company.name: www.zbw.com
+  build.artifactId: gateway-9527.com
+  build.version: 0.0.1-SNAPSHOT

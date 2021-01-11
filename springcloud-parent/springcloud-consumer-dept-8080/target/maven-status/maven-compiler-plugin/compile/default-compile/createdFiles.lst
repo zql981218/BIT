@@ -1,0 +1,5 @@
+com\consumer\ConsumerDept8080.class
+com\consumer\cfgBean\ConfigBean.class
+com\myrule\NewRule.class
+com\consumer\controller\ConsumerController.class
+com\myrule\MyRule02.class

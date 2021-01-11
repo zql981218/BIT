@@ -1,0 +1,9 @@
+server:
+  port: 8080 #设置端口号
+  
+  
+eureka:
+  client:
+    register-with-eureka: false		#不能自己注册自己
+    service-url: 
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/  	#负载均衡是建立在集群的基础上

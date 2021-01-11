@@ -1,0 +1,5 @@
+com\hystrix\pro\service\DeptService.class
+com\hystrix\pro\dao\DeptDao.class
+com\hystrix\pro\service\impl\DeptServiceImpl.class
+com\hystrix\HystrixProvider8001.class
+com\hystrix\pro\controller\DeptController.class

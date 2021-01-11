@@ -1,0 +1,4 @@
+com\springcloud\entity\Dept.class
+com\springcloud\service\DeptClientService.class
+com\springcloud\service\GetFeiginByHystrix$1.class
+com\springcloud\service\GetFeiginByHystrix.class

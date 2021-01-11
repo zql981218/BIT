@@ -1,0 +1,5 @@
+com\spingcloud\pro\controller\DeptController.class
+com\spingcloud\pro\service\DeptService.class
+com\spingcloud\pro\service\impl\DeptServiceImpl.class
+com\spingcloud\pro\dao\DeptDao.class
+com\spingcloud\DeptProvider8003.class

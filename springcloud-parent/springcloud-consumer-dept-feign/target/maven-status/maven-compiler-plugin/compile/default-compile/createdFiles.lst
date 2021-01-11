@@ -1,0 +1,3 @@
+com\admin\controller\FeignController.class
+com\admin\cfgBean\ConfigBean.class
+com\admin\Feign8081.class
